@@ -10,13 +10,13 @@
       "pending": 0,
       "skipped": 0,
       "other": 0,
-      "start": 1779197246877,
-      "stop": 1779197248513
+      "start": 1779198082099,
+      "stop": 1779198083786
     },
     "tests": [
       {
         "name": "[0] sağlık",
-        "duration": 52,
+        "duration": 53,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -27,7 +27,7 @@
       },
       {
         "name": "server.js [GET] /api/users [1] doğru kullanıcı sayısı",
-        "duration": 54,
+        "duration": 50,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -38,7 +38,7 @@
       },
       {
         "name": "server.js [GET] /api/users [2] tüm kullanıcıları alıyor",
-        "duration": 31,
+        "duration": 32,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -60,7 +60,7 @@
       },
       {
         "name": "server.js [GET] /api/users/:id [4] id yoksa 404 döndürüyor",
-        "duration": 31,
+        "duration": 30,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -71,7 +71,7 @@
       },
       {
         "name": "server.js [GET] /api/users/:id [5] id yoksa doğru hata mesajı",
-        "duration": 30,
+        "duration": 31,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -82,7 +82,7 @@
       },
       {
         "name": "server.js [POST] /api/users [6] veritabanında kullanıcı oluşturuyor",
-        "duration": 53,
+        "duration": 55,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -93,7 +93,7 @@
       },
       {
         "name": "server.js [POST] /api/users [7] yeni oluşturulan kullanıcıyı döndürüyor",
-        "duration": 45,
+        "duration": 48,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -104,17 +104,6 @@
       },
       {
         "name": "server.js [POST] /api/users [8] name yoksa 400 yanıtlıyor",
-        "duration": 30,
-        "status": "passed",
-        "rawStatus": "passed",
-        "type": "unit",
-        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js",
-        "retries": 0,
-        "flaky": false,
-        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/users"
-      },
-      {
-        "name": "server.js [POST] /api/users [9] name yoksa doğru doğrulama mesajı",
         "duration": 32,
         "status": "passed",
         "rawStatus": "passed",
@@ -125,8 +114,19 @@
         "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/users"
       },
       {
+        "name": "server.js [POST] /api/users [9] name yoksa doğru doğrulama mesajı",
+        "duration": 31,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [POST] /api/users"
+      },
+      {
         "name": "server.js [PUT] /api/users/:id [10] veritabanını güncelliyor",
-        "duration": 37,
+        "duration": 38,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -148,17 +148,6 @@
       },
       {
         "name": "server.js [PUT] /api/users/:id [12] id yoksa 404 yanıtlıyor",
-        "duration": 30,
-        "status": "passed",
-        "rawStatus": "passed",
-        "type": "unit",
-        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js",
-        "retries": 0,
-        "flaky": false,
-        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [PUT] /api/users/:id"
-      },
-      {
-        "name": "server.js [PUT] /api/users/:id [13] name eksikse 400 yanıtlıyor",
         "duration": 29,
         "status": "passed",
         "rawStatus": "passed",
@@ -169,8 +158,19 @@
         "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [PUT] /api/users/:id"
       },
       {
+        "name": "server.js [PUT] /api/users/:id [13] name eksikse 400 yanıtlıyor",
+        "duration": 34,
+        "status": "passed",
+        "rawStatus": "passed",
+        "type": "unit",
+        "filePath": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js",
+        "retries": 0,
+        "flaky": false,
+        "suite": "C:\\Users\\apo_k\\OneDrive\\Masaüstü\\Workintech\\Projects\\NodeJS\\fsweb-s13g3-node-api-project-3\\codegrade_mvp.test.js > server.js > [PUT] /api/users/:id"
+      },
+      {
         "name": "server.js [PUT] /api/users/:id [14] name yoksa doğru mesaj",
-        "duration": 30,
+        "duration": 34,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -181,7 +181,7 @@
       },
       {
         "name": "server.js [DELETE] /api/users/:id [15] kullanıcıyı veritabanından siliyor",
-        "duration": 37,
+        "duration": 41,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -192,7 +192,7 @@
       },
       {
         "name": "server.js [DELETE] /api/users/:id [16] yeni silinen üyeyi dönderiyor",
-        "duration": 37,
+        "duration": 36,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -214,7 +214,7 @@
       },
       {
         "name": "server.js [GET] /api/users/:id/posts [18] user post sayısı doğru",
-        "duration": 30,
+        "duration": 31,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -225,7 +225,7 @@
       },
       {
         "name": "server.js [GET] /api/users/:id/posts [19] user id yoksa 404 yanıtlıyor",
-        "duration": 30,
+        "duration": 31,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -247,7 +247,7 @@
       },
       {
         "name": "server.js [POST] /api/users/:id/posts [21] yeni oluşturulan üyeyi dönderiyor",
-        "duration": 37,
+        "duration": 35,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -258,7 +258,7 @@
       },
       {
         "name": "server.js [POST] /api/users/:id/posts [22] user id yoksa 404 yanıtlıyor",
-        "duration": 30,
+        "duration": 29,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
@@ -280,7 +280,7 @@
       },
       {
         "name": "server.js [POST] /api/users/:id/posts [24] text yoksa doğrulama mesajı",
-        "duration": 30,
+        "duration": 29,
         "status": "passed",
         "rawStatus": "passed",
         "type": "unit",
